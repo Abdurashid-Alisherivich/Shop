@@ -1,0 +1,20 @@
+.ymaps-2-1-79-inner-panes , .demo div{
+    width: 1150px!important;
+    margin-top: 5%;
+    height: 80vh !important;
+    margin: 0 auto!important;
+}
+
+.demo {
+    
+    margin-bottom:5%
+}
+
+@media only screen and (max-width: 600px) {
+ .ymaps-2-1-79-inner-panes , .demo div{
+    width: 320px!important;
+    margin-top: 10px !important;
+    margin: 0 auto !important;
+    height: auto;
+}
+}

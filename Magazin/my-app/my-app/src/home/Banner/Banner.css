@@ -1,0 +1,236 @@
+body {
+  -webkit-animation: fade-in 1s linear;
+          animation: fade-in 1s linear;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.banner-in-middle {
+  width: 95%;
+  margin-top: 30px;
+  margin: 30px auto;
+}
+
+.banner-in-middle img {
+  width: 100%;
+}
+
+.banner-in-middle .row {
+  position: relative;
+}
+
+.banner-in-middle .row:hover img {
+  opacity: .7;
+}
+
+.banner__image {
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+
+.banner__image img {
+  width: 100%;
+  height: 240px;
+  -webkit-transition: .8s;
+  transition: .8s;
+}
+
+.banner__title {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px;
+  margin: 50px 0 0 0;
+  text-align: left;
+  color: #fff;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 80%;
+}
+
+.banner__title h4 {
+  text-transform: uppercase;
+  font-size: 24px;
+  margin: 0;
+  color: orangered;
+}
+
+.banner__title p {
+  font-size: 18px;
+}
+
+.banner__title h3 {
+  font-size: 2.5rem;
+  line-height: 80px;
+}
+
+.banner__title h3 a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #E68B0C;
+  text-shadow: none;
+  margin-left: 10px;
+  padding: 0 10px 10px 10px !important;
+}
+
+.banner__title h3 a:hover {
+  background-color: #E68B0C;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  color: #000;
+}
+
+.banner__title:hover a {
+  background-color: rgba(0, 0, 0, 0.63);
+  border-radius: 10%;
+}
+
+.banner-footer .col-sm-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  vertical-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.item-content {
+  text-align: center;
+  margin-left: 10px;
+}
+
+.col-sm-4 svg {
+  width: 50px;
+  height: 50px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.banner-footer {
+  padding: 20px;
+  background-color: #e7931a;
+}
+
+.banner-footer .col-sm-4 {
+  margin: 10px 0;
+}
+
+.banner-footer .item-content {
+  padding: 10px;
+}
+
+.banner-footer .item-content .item-title {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.banner-footer .item-content .item-introtext {
+  color: #fff;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 768px) {
+  .banner__title {
+    width: 70%;
+    margin-top: 30px;
+  }
+  .banner__title h3 {
+    font-size: 2.5rem;
+    line-height: 80px;
+  }
+  .banner__title h3 a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #E68B0C;
+    text-shadow: none;
+    margin-left: 10px;
+    padding: 0 10px 10px 10px !important;
+    background-color: rgba(0, 0, 0, 0.63);
+    border-radius: 10%;
+  }
+  .banner__title h3 a:hover {
+    background-color: #E68B0C;
+    -webkit-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    color: #000;
+  }
+  .banner-footer .item-content .item-title {
+    font-size: 14px;
+  }
+  .banner-footer .item-content .item-introtext {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .banner-footer {
+    text-align: center;
+  }
+  .banner-footer .item-content .item-title {
+    font-size: 14px;
+  }
+  .banner-footer .item-content .item-introtext {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .banner__title {
+    width: 80%;
+    margin-left: 50px;
+    margin: 40px 0 0 50px;
+  }
+  .banner__title h4 {
+    font-size: 20px;
+    margin: 0;
+  }
+  .banner__title h3 {
+    font-size: 2.7rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .banner__title {
+    width: 90%;
+    margin-left: 15px;
+    margin: 20px 0 0 15px;
+  }
+  .banner__title h4 {
+    font-size: 18px;
+    margin: 0;
+  }
+  .banner__title h3 {
+    font-size: 2rem;
+  }
+  .banner__title p {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=Banner.css.map */

@@ -1,0 +1,32 @@
+[
+    {
+        "img": "./img/capiva.jpg",
+        "name": "CAPTIVA",
+        "narxi": "5000"
+    },
+    {
+        "img": "./img/capiva_serena.jpg",
+        "name": "CAPTIVA",
+        "narxi": "5000"
+    },
+    {
+        "img": "./img/jentra.jpg",
+        "name": "JENTRA",
+        "narxi": "5000"
+    },
+    {
+        "img": "./img/Maluba.jpg",
+        "name": "MALIBU",
+        "narxi": "5000"
+    },
+    {
+        "img": "./img/malibuTurbo.jpg",
+        "name": "MALIBU",
+        "narxi": "5000"
+    },
+    {
+        "img": "./img/malibuTurbo.jpg",
+        "name": "MALIBU",
+        "narxi": "5000"
+    }
+]

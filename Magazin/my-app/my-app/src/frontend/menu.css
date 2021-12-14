@@ -1,0 +1,99 @@
+.nav-one{
+    margin-left: 230px;
+}
+
+.navbar-collapse{
+    flex-grow: unset !important;
+}
+
+@media (max-width: 1000px) {
+    .nav-title-link{
+        margin-left: 10px;
+    }
+    .nav-title-link-one{
+        margin-left: 10px;
+    }
+    .navbar-brand{
+        margin-left: 5px;
+    }
+    .one{
+        background-color:unset !important;
+        border: none !important;
+    }
+    .two{
+        background-color:unset !important;
+        border: none !important;
+    }
+    .one:hover{
+        background-color: unset !important;
+        color: unset !important;
+    }
+    .two:hover{
+        background-color: unset !important;
+        color: unset !important;
+    }
+  }
+.nav{
+    background-color: #007aff !important;
+    background: rgb(40,68,130);
+    background: linear-gradient(90deg, rgba(40,68,130,1) 15%, rgba(27,114,170,1) 54%, rgba(0,212,255,1) 100%);
+}
+.bg-one{
+    background-color:none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-title-link-one{
+    color: white !important;
+    font-family: "Poppins", sans-serif;
+}
+.nav-title-link{
+    color: rgb(214, 214, 214) !important;
+    font-family: "Poppins", sans-serif;
+
+}
+.nav-title-link:hover {
+    color: white !important;
+}
+.navbar-brand{
+    color: white !important;
+    font-size: 25px !important;
+    font-family: "Poppins", sans-serif;
+}
+.one{
+    border: 2px solid white;
+    color: white !important;
+    border-radius: 3px;
+}
+.one:hover {
+    background-color: white !important;
+    color:#007aff !important;
+}
+.two:hover {
+    background-color: white !important;
+    color:#007aff!important;
+}
+.two{
+    margin-left: 10px;
+    border: 2px solid white;
+    color: white !important;
+    border-radius: 3px;
+}
+.menu-cart-svg{
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+}
+.span_txt_for_cartIcon{
+    /* left: 100px; */
+    margin-left: -15px;
+    margin-top: -10rem !important;
+    font-size: 10px;
+    background-color: crimson;
+    color: white;
+    border-radius: 50%;
+    padding: 3px 5px;
+    z-index: -50;
+}
+

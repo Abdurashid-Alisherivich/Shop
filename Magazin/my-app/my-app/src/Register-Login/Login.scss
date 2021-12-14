@@ -1,0 +1,66 @@
+$bc : 1px solid red;
+
+@mixin w1 {
+    max-width: 4000px;
+    width: 100%;
+}
+@mixin w2{
+    max-width: 1200px;
+    width: 100%;
+}
+@mixin w-medium{
+    max-width: 1000px;
+    width: 100%;
+}
+@mixin r-c {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+@mixin r-sb{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+@mixin c-c{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.login-body{
+    @include r-c();
+    height: 100vh;
+    background: linear-gradient(-45deg, #3b87bd, #2d71a2);
+
+
+    .login-inner{
+        @include r-c();
+        .login-inputs{
+            width: 350px;
+            height: 40px;
+
+            @media only screen and (max-width: 600px) {
+                .reg-inputs{
+                    width: 90%;
+                    height: 20px;
+                }
+              }
+        }
+
+        .for-color{
+            color: white;
+        }
+        
+        .login-button{
+            margin-bottom: 20px;
+        }
+    }
+}

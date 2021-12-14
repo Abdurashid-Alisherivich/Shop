@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerOrder {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.containerOrder img {
+    width: 300px;
+}
+
+.order-background {
+    // background-image: url(images/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+
+
+.order-home {
+    color: white;
+    position: relative;
+    top: 30px;
+}
+
+.order-suites {
+    color: white;
+    position: relative;
+    top: 50px;
+}
+
+.order-title {
+
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.order-title-inner {
+    text-align: center;
+}
+
+.hl-1 {
+    width: 80px;
+    height: 1px;
+    display: inline-block;
+    background: #010517;
+
+}
+
+.hl-2 {
+    display: inline-block;
+    height: 12px;
+    margin: 0 5px;
+    position: relative;
+    top: 5px;
+    width: 12px;
+    border: 1px solid #010517;
+    border-radius: 50px;
+    background: #ffffff;
+}
+
+.hl-3 {
+    width: 80px;
+    height: 1px;
+    display: inline-block;
+    background: #010517;
+}
+
+.order-hl {
+    justify-content: column;
+}
+
+/* kartalar qismi */
+.OrderCardsJs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    // display: grid;
+    // grid-template-columns: auto auto auto;
+    // margin-top: 20px;
+    // justify-content: space-between;
+
+}
+
+.container{
+    width: 85% !important;
+    max-width: 85% !important;
+}
+
+.order-card {
+    display: inline-block;
+    width: 310px;
+    padding: 6px;
+    justify-content: space-between;
+    margin: 15px;
+    margin-top: 20px;
+    background-color: #eee;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.order-card:hover {
+    transform: scale(1.01);
+    transition-duration: 0.5s;
+    box-shadow: 10px 10px 10px rgb(167, 165, 165);
+}
+
+
+.order-card-body {
+    text-align: center;
+}
+
+.order-img {
+    width: 300px;
+    height: 200px;
+}
+
+.order-button {
+    width: 144px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-bottom: 50px;
+    margin-top: 15px;
+    font-family: cursive;
+
+}
+
+.order-card-title {
+    color: #010517;
+    font-size: 38px;
+    font-weight: 500;
+    margin-top: 50px;
+
+
+}
+
+.order-card-text {
+    line-height: 23px;
+    margin-top: 0px;
+    color: grey;
+}
+
+.buttonPlus, .buttonMinus{
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+    color: white;
+    margin: 0 15px;
+    border-radius: 5px;
+    border: 0;
+}
+.inputGetResult{
+    border: 0;
+    border-radius: 5px;
+    width: 50px;
+    text-align: center;
+    font-family: cursive;
+
+}
+
+
+.plusMinus{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: cursive;
+}
